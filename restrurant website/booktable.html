@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Table Booking</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js" ></script>
+    <link rel="stylesheet" href=
+ "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src=
+ "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+     </script>
+     <script src=
+ "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+     </script>
+ 
+   
+    <script src="https://kit.fontawesome.com/f9547e8e97.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-inverse  navbar-fixed-top" >
+        <div role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle"
+                            type="button" data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <img src="images/company logo.png" height="60px" alt="">
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a> </li>
+                        <li><a href="booktable.html">Book Table</a> </li>
+                        <li><a href="aboutus.html">About Us</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+   
+    <div class="container">
+        <h1>Table Booking</h1>
+        <form action="#"  class="table-form">
+            <label for="name">Name:</label>
+            <input type="text" id="namee" name="name" required minlength="3">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required minlength="10" maxlength="10">
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="party-size">Party Size:</label>
+            <input type="number" id="partysize" name="party_size" min="1" required >
+
+            <input type="submit" id="submit" value="Book Table">
+
+            <script src="btable.js" ></script>
+        </form>
+    </div>
+
+    <footer class="footer">
+
+  
+
+        <div class="footer-content">
+          <h3>Pannu Cafe</h3>
+          <p>FLAVORFUL FUSION</p>
+          <ul class="socials">
+            <li> <a href="tel:8727923195"><i class="fa-solid fa-phone fa-bounce fa-xs" style="color: #ffffff;"></i></a> </li>
+            <li><a href="https://www.facebook.com/profile.php?id=100012413198186"><i class="fa-brands fa-facebook fa-bounce" style="color: #ffffff;"></i></a></li>
+            <li><a href="https://twitter.com/gurminder_pxnnu"872<i class="fa-brands fa-twitter fa-bounce" style="color: #ffffff;"></i></a></li>
+            <li><a href="https://instagram.com/gurminder__pannu"><i class="fa-brands fa-instagram fa-bounce" style="color: #ffffff;"></i></a></li>
+            <li> <a href="mailto:gurminderpannu6@gmail.com"><i class="fa-brands fa-google fa-bounce fa-xs" style="color: #ffffff;"></i></a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+      <p>copyright &copy; 2023 Pannu Cafe. designed by <span>Gurminder & Kaushal</span></p>
+      </div>
+      
+       
+        
+      </footer>
+
+</body>
+</html>
